@@ -60,7 +60,7 @@ function App() {
               { title: "Portfolio Website", desc: "Built with React and Tailwind, showcasing my work." },
               { title: "Calculator", desc: "A simple reliable tool for quick and accurate calculation." },
               {title: "Weather App", desc: "A web app that provides real-time weather updates using OpenWeatherMap API." },
-              { title: "Event reservation system", desc: "A web application that allows users to book and manage event reservations." }
+              { title: "Event reservation website", desc: "A web application that allows users to book and manage event reservations." }
             ].map(project => (
               <div key={project.title} className="project-card">
                 <h4>{project.title}</h4>
